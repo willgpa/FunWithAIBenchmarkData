@@ -43,6 +43,9 @@
     <Compile Include="utilitiesPackage\CSV_Utilities.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="utilitiesPackage\find_longest.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="utilitiesPackage\utilities.py">
       <SubType>Code</SubType>
     </Compile>

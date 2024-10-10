@@ -3,6 +3,7 @@
 # nicholdw@ucmail.uc.edu
 
 from readingLevelPackage.readingLevel import Reading_Level
+from utilitiesPackage.find_longest import find_longest_word, find_most_prevalent_word
 from utilitiesPackage.utilities import *
 from utilitiesPackage.CSV_Utilities import *
 from PDFPackage.PDFUtilities import *
@@ -25,7 +26,8 @@ if __name__ == "__main__":
 
     #0. Append all the prompts into a big string - See utilities.convert_dictionaries_to_string()
     
-    
+    longest_word = find_longest_word(text)
+    print("longest word",longest_word)
     #1. Perform reading level analysis on the big string and print the results to the console.
     Reading_Level.compute_readability_indices("MMLU", text)
 
@@ -33,7 +35,9 @@ if __name__ == "__main__":
 
 
     #3. Process the big string to find the most prevalent word
-    
+     
+    find_most_prevalent= find_most_prevalent_word(text)
+    print("most prevelant word",find_most_prevalent)
 
     #4. Use the VS debugger: set a breakpoint somewhere to pause the project when a prompt containing the word "PEST" is read from the original CSV file
     
