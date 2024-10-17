@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1c8dfa70-5213-4629-87b9-f78983e6ce8f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mainPackage\main.py</StartupFile>
+    <StartupFile>visualizationPackage\visualization.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,12 @@
     </Compile>
     <Compile Include="mainPackage\main.py" />
     <Compile Include="mainPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="visualizationPackage\visualization.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="visualizationPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PDFPackage\PDFUtilities.py">
@@ -59,6 +65,7 @@
     <Folder Include="dataPackage\MMLU\data\" />
     <Folder Include="dataPackage\MMLU\results\" />
     <Folder Include="mainPackage\" />
+    <Folder Include="visualizationPackage\" />
     <Folder Include="PDFPackage\" />
     <Folder Include="readingLevelPackage\" />
     <Folder Include="utilitiesPackage\" />
