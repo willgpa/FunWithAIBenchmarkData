@@ -1,3 +1,20 @@
+########################################################################################################################################################################
+# Name: Will Padgett, Sarah Mahan                                                                                                                                      #
+# email:  padgetwg@mail.uc.edu, mahansa@mail.uc.edu                                                                                                                    #
+# Assignment Number: Assignment 07                                                                                                                                     #
+# Due Date:   10/22/2024                                                                                                                                               # 
+# Course #/Section: 4010/001                                                                                                                                           #
+# Semester/Year:   1/4                                                                                                                                                 #
+# Brief Description of the assignment: Add a data visualization to the provided project                                                                                #                                                                                                                                                                  
+# Brief Description of what this module does.  this module loads the dataset and does multiple maniputalions before displaying results in a data visualization         #                                       
+#                                                                                                                                                                      #
+# Citations: GPT 4o                                                                                                                                                    #
+# Anything else that's relevant:                                                                                                                                       #
+########################################################################################################################################################################
+
+
+
+
 from pathlib import Path
 import pandas as pd
 import plotly.express as px
