@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1c8dfa70-5213-4629-87b9-f78983e6ce8f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>visualizationPackage\visualization.py</StartupFile>
+    <StartupFile>visualizationPackage\visualization_main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,7 +28,16 @@
     <Compile Include="mainPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="visualizationPackage\visualization.py">
+    <Compile Include="visualizationPackage\data_loader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="visualizationPackage\data_processing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="visualizationPackage\plots.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="visualizationPackage\visualization_main.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="visualizationPackage\__init__.py">
